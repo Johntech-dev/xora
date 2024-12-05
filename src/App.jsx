@@ -4,6 +4,8 @@ import Features from './sections/Features.jsx';
 import Pricing from './components/Pricing.jsx';
 import Header from './sections/Header.jsx';
 import Faq from './sections/Faq.jsx';
+import Testimonials from './sections/Testimonials.jsx';
+import Footer from './sections/Footer.jsx';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Features />
         <Pricing />
         <Faq />
+        <Testimonials />
+        <Footer />
     </div>
   )
 }
